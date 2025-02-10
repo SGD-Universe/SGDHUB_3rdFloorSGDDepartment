@@ -10,7 +10,7 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         CheckInteraction();
-        if (Input.GetMouseButton(0) && currentInteractable != null)
+        if (Input.GetMouseButtonDown(0) && currentInteractable != null)
         {
             currentInteractable.Interact();
         }

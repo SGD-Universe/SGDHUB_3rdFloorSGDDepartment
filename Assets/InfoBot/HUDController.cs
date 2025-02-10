@@ -14,7 +14,7 @@ public class HUDController : MonoBehaviour
 
     public void EnableInteractionText(string text)
     {
-        interactionText.text = text + " (Click To Play)";
+        interactionText.text = text + " (Click)";
         interactionText.gameObject.SetActive(true);
     }
 
