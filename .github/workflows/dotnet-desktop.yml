@@ -57,9 +57,9 @@ jobs:
 
     env:
        Solution_Name: SGDHUB_3rdFloorSGDDepartment.sln                        # Replace with your solution name
-       Test_Project_Path: SGDHUB_3rdFloorSGDDepartment.Tests/SGDHUB_3rdFloorSGDDepartment.Tests.csproj  # Replace with the path to your test project
-       Wap_Project_Directory: SGDHUB_3rdFloorSGDDepartment.Package             # Replace with the WAP project directory relative to the solution
-       Wap_Project_Path: SGDHUB_3rdFloorSGDDepartment.Package/SGDHUB_3rdFloorSGDDepartment.Package.wapproj  # Replace with the path to your WAP project
+       Test_Project_Path: Assets  # Replace with the path to your test project
+       Wap_Project_Directory: SGDHUB_3rdFloorSGDDepartment            # Replace with the WAP project directory relative to the solution
+       Wap_Project_Path:   # Replace with the path to your WAP project
 
     steps:
     - name: Checkout
