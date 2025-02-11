@@ -56,10 +56,10 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
-                             # Replace with your solution name, i.e. MyWpfApp.sln.
-                      # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: SGDHUB_3rdFloorSGDDepartment    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-                       # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+       Solution_Name: SGDHUB_3rdFloorSGDDepartment.sln                        # Replace with your solution name
+       Test_Project_Path: Assets  # Replace with the path to your test project
+       Wap_Project_Directory: SGDHUB_3rdFloorSGDDepartment            # Replace with the WAP project directory relative to the solution
+       Wap_Project_Path:   # Replace with the path to your WAP project
 
     steps:
     - name: Checkout
